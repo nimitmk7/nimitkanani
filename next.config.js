@@ -5,5 +5,9 @@ module.exports = {
   output: 'export',
   basePath: '/nimitkanani',
   assetPrefix: '/nimitkanani/',
-  trailingSlash: true
+  trailingSlash: true,
+  images: {
+    loader: 'imgix',
+    path: 'src/images'
+  }
 }
