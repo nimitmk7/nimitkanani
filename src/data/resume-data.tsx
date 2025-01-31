@@ -71,10 +71,10 @@ export const RESUME_DATA = {
       company: "Sov AI Research LLC",
       link: "https://sov.ai",
       badges: ["Large Language Models(LLMs)"],
-      title: "Machine Learning Engineer Intern",
-      start: "June 2024",
+      title: "Quantitative Developer Intern",
+      start: "June 2024 - December 2024",
       end: "present",
-      description: "● Developing advanced Large Language Models(LLMs) on unstructured proprietary data"
+      description: "● Developed a Python software package for extracting, parsing, and analyzing USPTO patent data, automating periodic data processing scripts to generate actionable insights. \n\● Trained a custom sentence transformer language model to map patent assignee organization names to stock market tickers, enhancing data linkage and market analysis."
     },
     {
       company: "New York University",
@@ -112,6 +112,7 @@ export const RESUME_DATA = {
     "Apache Kafka",
     "Docker",
     "Hadoop",
+    "Terraform", 
     "InfluxDB",
     "Kubernetes",
     "Redis",
@@ -127,12 +128,58 @@ export const RESUME_DATA = {
     "Pandas",
     "Tensorflow",
     "Rest API", 
-    "Spacy", 
+    "Spacy",
     "Github"
   ],
   projects: [
     {
-      title: "Scenario Analysis of Nasdaq Tech 100 Index using Long Short-Term Memory Network",
+      title: "Omnicode - A Cloud Based Coding Assistant",
+      description: "Scalable, modular, and cost-effective VSCode extension powered by AWS, with 3 features: Code completion, Code refactoring, and Documentation Generation. \n\ It also features a personalized usage metrics dashboard.",
+      techStack: [
+        "AWS",
+        "Python",
+        "DynamoDB"
+      ]
+    },
+    {
+      title: "Optimizing cross-domain adaptability of Low parameter Language Models through prefix tuning",
+      techStack:[
+        "Huggingface",
+        "Python",
+      ],
+      description: "Applied parameter-efficient prefix tuning to the T5-large model, achieving over 90% accuracy on cross-domain sentiment analysis tasks, including IMDB, Financial Phrasebank, and Twitter, tweaking less than 1% of the model’s parameters. \n\ We highlighted that it's performance is comparable to the fully fine-tuned model Flan-T5 on a variety of sentiment analysis tasks."
+    },
+    {
+      title: "AI-Powered Photo Album on the Cloud with Natural Language Search",
+      techStack: [
+        "AWS",
+        "Python",
+        "ElasticSearch",
+        "Terraform",
+      ],
+      description: "Created a photo album web application on the cloud, that can be searched using natural language text. \n\ \n\ The UI is a static website on S3, with 2 operations: \n\ 1. The user can add a photo along with their own custom labels. The image along with the labels is passed to an S3 bucket via API Gateway, and further processed by a Lambda function to get object recognition labels from the image using AWS Rekognition, and indexed in AWS OpenSearch. \n\ 2. Natural Language based photo Search: Upon receiving the request, Amazon Lex processes the request to fetch labels in the query, and fetches images with the given labels in the S3 bucket using AWS OpenSearch Indexes. \n\ All the code for the application is autodeployed from Github using AWS CodePipeline. The architecture is created and updated using AWS CloudFormation config files."
+    },
+    {
+      title: "Supervised Finetuning of Llama 3.1-8B model for verifying the correctness of answers to Mathematical questions",
+      techStack: [
+        "Huggingface",
+        "Python",
+        "PyTorch"
+      ],
+      description: "Tuned the Llama 3.1-8B model using Performance Efficient Finetuning Technique(PEFT) LoRA(Low-Rank Adapation) to verify the correctness of answers to Mathematical questions, and achieved 85% accuracy."
+    }, 
+    {
+      title: "Online Chatbot for Dining Suggestions", 
+      description: "Developed a chatbot on AWS that takes in restaurant preferences from users, finds relevant restaurants and sends the recommendations in an email.",
+      techStack: [
+        "AWS",
+        "Python",
+        "DynamoDB",
+        "ElasticSearch"
+      ]
+    },
+    {
+      title: "Scenario Analysis of Nasdaq Tech 100 Index using Long Short-Term Memory Network(LSTM)",
       techStack: [
         "PyTorch",
         "Pandas",
