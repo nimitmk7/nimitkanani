@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -11,12 +11,11 @@ import {
   blogSection,
   achievementSection,
   resumeSection,
-  educationInfo
+  educationInfo,
 } from "../../portfolio";
 
- 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -52,13 +51,11 @@ function Header() {
               <a href="#projects">Projects</a>
             </li>
           )}
-          {
-            viewEducation && (
-              <li>
-                <a href="#education">Education</a>
-              </li>
-            )
-          }
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
@@ -71,7 +68,7 @@ function Header() {
           )}
           {viewResume && (
             <li>
-              <a 
+              <a
                 href={greeting.resumeLink}
                 target="_blank"
                 rel="noopener noreferrer"

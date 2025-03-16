@@ -22,7 +22,10 @@ export default function Projects() {
             <div key={project.id} className="project-card">
               <h2 className="project-title">{project.title}</h2>
               <p>{project.description}</p>
-              <p><strong>Tech Stack:</strong> {(project.techStack || []).join(", ")}</p>
+              <p>
+                <strong>Tech Stack:</strong>{" "}
+                {(project.techStack || []).join(", ")}
+              </p>
             </div>
           ))}
         </div>
@@ -30,4 +33,3 @@ export default function Projects() {
     </Suspense>
   );
 }
-

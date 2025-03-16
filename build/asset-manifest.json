@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nimitkanani/static/css/main.1c2b5a53.css",
-    "main.js": "/nimitkanani/static/js/main.d9aa67fd.js",
+    "main.js": "/nimitkanani/static/js/main.3ace19ee.js",
     "static/css/64.bba8fa55.chunk.css": "/nimitkanani/static/css/64.bba8fa55.chunk.css",
     "static/js/64.c3a20a20.chunk.js": "/nimitkanani/static/js/64.c3a20a20.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/nimitkanani/static/css/769.b3cbb36b.chunk.css",
@@ -31,14 +31,11 @@
     "static/media/nextuLogo.webp": "/nimitkanani/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/nimitkanani/index.html",
     "main.1c2b5a53.css.map": "/nimitkanani/static/css/main.1c2b5a53.css.map",
-    "main.d9aa67fd.js.map": "/nimitkanani/static/js/main.d9aa67fd.js.map",
+    "main.3ace19ee.js.map": "/nimitkanani/static/js/main.3ace19ee.js.map",
     "64.bba8fa55.chunk.css.map": "/nimitkanani/static/css/64.bba8fa55.chunk.css.map",
     "64.c3a20a20.chunk.js.map": "/nimitkanani/static/js/64.c3a20a20.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/nimitkanani/static/css/769.b3cbb36b.chunk.css.map",
     "769.52293198.chunk.js.map": "/nimitkanani/static/js/769.52293198.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.1c2b5a53.css",
-    "static/js/main.d9aa67fd.js"
-  ]
+  "entrypoints": ["static/css/main.1c2b5a53.css", "static/js/main.3ace19ee.js"]
 }

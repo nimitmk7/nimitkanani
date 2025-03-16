@@ -1,1 +1,90 @@
-{"data":{"user":{"name":"Nimit Kanani","bio":"MS CS(AI/ML track) student @ NYU  | Ex-Software Engineer at @hevoio | BITS Pilani Alumni","avatarUrl":"https://avatars.githubusercontent.com/u/33841578?u=f78efe245c674381058f88c8b91d2d450e3757a1&v=4","location":"New York City","pinnedItems":{"totalCount":6,"edges":[{"node":{"name":"airline-reservation-system","description":"A basic implementation of airline reservation system using read/write locks and isolation levels in MySQL.","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/nimitmk7/airline-reservation-system","id":"R_kgDOJUwhIQ","diskUsage":24,"primaryLanguage":{"name":"Java","color":"#b07219"}}},{"node":{"name":"online-offline-indicator","description":"Using Redis and server-client architecture to know the status(online/offline) of a user on a social media network.","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/nimitmk7/online-offline-indicator","id":"R_kgDOJRUfAg","diskUsage":31,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"swimming-pool","description":"Implementation of MySQL DB Connection Pool service from scratch","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/nimitmk7/swimming-pool","id":"R_kgDOJRw6lA","diskUsage":6,"primaryLanguage":{"name":"Java","color":"#b07219"}}},{"node":{"name":"wdi-explorer","description":"Data Processing and Evaluation of Data Deprivation Levels from World Development Data","forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/nimitmk7/wdi-explorer","id":"R_kgDOKgArAA","diskUsage":83696,"primaryLanguage":{"name":"Jupyter Notebook","color":"#DA5B0B"}}},{"node":{"name":"nyc-taxi-analysis","description":"Distributed Processing and Insights Generation from NYC Taxi Data using PySpark","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/nimitmk7/nyc-taxi-analysis","id":"R_kgDOLY0QJw","diskUsage":9,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"browser-agent","description":"AI agent that uses browser to perform actions","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/nimitmk7/browser-agent","id":"R_kgDOOBoocQ","diskUsage":7,"primaryLanguage":{"name":"Python","color":"#3572A5"}}}]}}}}
+{
+  "data": {
+    "user": {
+      "name": "Nimit Kanani",
+      "bio": "MS CS(AI/ML track) student @ NYU  | Ex-Software Engineer at @hevoio | BITS Pilani Alumni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33841578?u=f78efe245c674381058f88c8b91d2d450e3757a1&v=4",
+      "location": "New York City",
+      "pinnedItems": {
+        "totalCount": 6,
+        "edges": [
+          {
+            "node": {
+              "name": "airline-reservation-system",
+              "description": "A basic implementation of airline reservation system using read/write locks and isolation levels in MySQL.",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 0 },
+              "url": "https://github.com/nimitmk7/airline-reservation-system",
+              "id": "R_kgDOJUwhIQ",
+              "diskUsage": 24,
+              "primaryLanguage": { "name": "Java", "color": "#b07219" }
+            }
+          },
+          {
+            "node": {
+              "name": "online-offline-indicator",
+              "description": "Using Redis and server-client architecture to know the status(online/offline) of a user on a social media network.",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 0 },
+              "url": "https://github.com/nimitmk7/online-offline-indicator",
+              "id": "R_kgDOJRUfAg",
+              "diskUsage": 31,
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
+            }
+          },
+          {
+            "node": {
+              "name": "swimming-pool",
+              "description": "Implementation of MySQL DB Connection Pool service from scratch",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 0 },
+              "url": "https://github.com/nimitmk7/swimming-pool",
+              "id": "R_kgDOJRw6lA",
+              "diskUsage": 6,
+              "primaryLanguage": { "name": "Java", "color": "#b07219" }
+            }
+          },
+          {
+            "node": {
+              "name": "wdi-explorer",
+              "description": "Data Processing and Evaluation of Data Deprivation Levels from World Development Data",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 1 },
+              "url": "https://github.com/nimitmk7/wdi-explorer",
+              "id": "R_kgDOKgArAA",
+              "diskUsage": 83696,
+              "primaryLanguage": {
+                "name": "Jupyter Notebook",
+                "color": "#DA5B0B"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "nyc-taxi-analysis",
+              "description": "Distributed Processing and Insights Generation from NYC Taxi Data using PySpark",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 0 },
+              "url": "https://github.com/nimitmk7/nyc-taxi-analysis",
+              "id": "R_kgDOLY0QJw",
+              "diskUsage": 9,
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
+            }
+          },
+          {
+            "node": {
+              "name": "browser-agent",
+              "description": "AI agent that uses browser to perform actions",
+              "forkCount": 0,
+              "stargazers": { "totalCount": 0 },
+              "url": "https://github.com/nimitmk7/browser-agent",
+              "id": "R_kgDOOBoocQ",
+              "diskUsage": 7,
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
