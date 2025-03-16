@@ -1,0 +1,75 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.software-skill-inline {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.software-skill-inline img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.software-skill-inline:hover img {
+  transform: scale(1.1);
+}
+
+.skill-tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
+
+.software-skill-inline:hover .skill-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.software-skill-inline p {
+  color: #868e96;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.software-skills-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
+h2 {
+  // color: #001c55;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
