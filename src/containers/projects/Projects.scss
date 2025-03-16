@@ -1,0 +1,48 @@
+#projects {
+  padding: 20px;
+}
+
+.project-title {
+  margin-bottom: 20px;
+}
+
+.repo-cards-div-main {
+  padding-top: 20px;
+}
+
+.project-card {
+  padding: 20px;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #171c28;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  p {
+    color: #171c28;  /* Default color for light mode */
+  }
+}
+
+.project-card h2,
+.project-card .project-title {
+  font-weight: 900 !important;
+  color: #171c28 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  margin-top: 0;
+  margin-bottom: 10px !important;
+}
+
+/* For dark mode */
+.dark-mode .project-card {
+  p {
+    color: #ffffff;  /* White text for dark mode */
+  }
+}
+
+.projects-main {
+  padding: 20px;
+} 

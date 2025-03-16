@@ -1,0 +1,15 @@
+// If the title has a specific class
+.project-title {
+  font-weight: 800;  // Makes the text bold
+  font-size: 1.2rem;  // Adjust size if needed
+  margin-bottom: 10px;
+}
+
+// OR if it's using an h3 or other heading tag
+.project-card h2 {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
