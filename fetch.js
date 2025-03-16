@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = "nimitmk7";
-const USE_GITHUB_DATA = true;
+const USE_GITHUB_DATA = "true";
 const MEDIUM_USERNAME = "nimitmk7";
 
 const ERR = {
