@@ -37,5 +37,8 @@
     "769.b3cbb36b.chunk.css.map": "/nimitkanani/static/css/769.b3cbb36b.chunk.css.map",
     "769.52293198.chunk.js.map": "/nimitkanani/static/js/769.52293198.chunk.js.map"
   },
-  "entrypoints": ["static/css/main.1c2b5a53.css", "static/js/main.3ace19ee.js"]
+  "entrypoints": [
+    "static/css/main.1c2b5a53.css",
+    "static/js/main.3ace19ee.js"
+  ]
 }
